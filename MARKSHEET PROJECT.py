@@ -350,7 +350,7 @@ e13.grid(row=21, column=3)
 e14.grid(row=17, column=3)
 
 button1 = tk.Button(master, text="SUBMIT",font=20, bg="white",fg="red", command=display)
-button1.place(x=710,y=760)
+button1.place(x=710,y=540)
 
 tk.Label(master,fg="blue", text="Total Credit",font=20).grid(row=23, column=4)
 tk.Label(master,fg="blue", text="CGPA",font=20).grid(row=24, column=4)
